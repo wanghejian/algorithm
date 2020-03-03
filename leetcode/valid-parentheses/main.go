@@ -61,7 +61,6 @@ func isValid(s string) bool {
 
 func main() {
 	fmt.Println(isValid("(1)"))
-	fmt.Println(isValid(""))
 	fmt.Println(isValid(" "))
 	fmt.Println(isValid("(1[)]"))
 	fmt.Println(isValid("([{232}])"))
